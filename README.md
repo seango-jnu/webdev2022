@@ -13,6 +13,7 @@
 
 ## 그 외
 - [Markdown 문법 알아보기](markdown)
+  - [이미 잘 만들어진 문서](https://gist.github.com/ihoneymon/652be052a0727ad59601)
 - [Jekyll 알아보기](https://jekyllrb.com/docs/step-by-step/01-setup/)
 
 ## 만들어 봅시다.
@@ -24,7 +25,7 @@
 ## Github 지원하는 jekyll theme
 <https://pages.github.com/themes/>  
 
-## Github Page 운영 중
+## Github Page 운영 중 서비스들
 [https://github.com/collections/github-pages-examples]  
 
 ## jekyll을 이용해서 블로그를 만들고 꾸준히 포스팅을 합시다.
@@ -33,5 +34,5 @@
 ## 부트스트랩 템플릿
 [https://startbootstrap.com/]  
 
-## 무료 
+## 무료 템플릿
 [http://www.templatefoundation.com/]
