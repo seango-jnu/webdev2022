@@ -13,4 +13,11 @@
 
 ## 그 외
 - [Markdown 문법 알아보기](markdown)
-- Jekyll 알아보기
+- [Jekyll 알아보기](https://jekyllrb.com/docs/step-by-step/01-setup/)
+
+## 만들어 봅시다.
+- https://seango-jnu.github.io/
+- https://seango-jnu.github.io/bootstrap/
+- https://seango-jnu.github.io/jekyll/
+
+## jekyll을 이용해서 블로그를 만들고 꾸준히 포스팅을 합시다.
