@@ -26,7 +26,7 @@
 <https://pages.github.com/themes/>  
 
 ## Github Page 운영 중 서비스들
-<https://github.com/collections/github-pages-examples]>
+<https://github.com/collections/github-pages-examples>
 
 ## jekyll을 이용해서 블로그를 만들고 꾸준히 포스팅을 합시다.
 <https://wormwlrm.github.io/2021/10/11/Why-User-Agent-string-is-so-complex.html>
