@@ -21,4 +21,17 @@
 - https://seango-jnu.github.io/jekyll/
 - https://github.com/seango-jnu/least-github-pages
 
+## Github 지원하는 jekyll theme
+https://pages.github.com/themes/
+
+## Github Page 운영 중
+https://github.com/collections/github-pages-examples
+
 ## jekyll을 이용해서 블로그를 만들고 꾸준히 포스팅을 합시다.
+https://wormwlrm.github.io/2021/10/11/Why-User-Agent-string-is-so-complex.html
+
+## 부트스트랩 템플릿
+https://startbootstrap.com/ 
+
+## 무료 
+http://www.templatefoundation.com/
