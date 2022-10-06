@@ -17,10 +17,10 @@
 - [Jekyll 알아보기](https://jekyllrb.com/docs/step-by-step/01-setup/)
 
 ## 만들어 봅시다.
-- https://seango-jnu.github.io/
-- https://seango-jnu.github.io/bootstrap/
-- https://seango-jnu.github.io/jekyll/
-- https://github.com/seango-jnu/least-github-pages
+- <https://seango-jnu.github.io/>
+- <https://seango-jnu.github.io/bootstrap/>
+- <https://seango-jnu.github.io/jekyll/>
+- <https://github.com/seango-jnu/least-github-pages>
 
 ## Github 지원하는 jekyll theme
 <https://pages.github.com/themes/>  
