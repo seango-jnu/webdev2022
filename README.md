@@ -19,5 +19,6 @@
 - https://seango-jnu.github.io/
 - https://seango-jnu.github.io/bootstrap/
 - https://seango-jnu.github.io/jekyll/
+- https://github.com/seango-jnu/least-github-pages
 
 ## jekyll을 이용해서 블로그를 만들고 꾸준히 포스팅을 합시다.
