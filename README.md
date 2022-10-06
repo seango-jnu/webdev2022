@@ -36,3 +36,6 @@
 
 ## 무료 템플릿
 <http://www.templatefoundation.com/>
+
+## Jekyll theme
+<https://jekyllrb.com/docs/themes/>
