@@ -12,5 +12,5 @@
 4. Jekyll Theme 을 이용해서 블로그 운영하기
 
 ## 그 외
-- Markdown 문법 알아보기
+- [Markdown 문법 알아보기](/markdown.html)
 - Jekyll 알아보기
