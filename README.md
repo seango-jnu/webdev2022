@@ -17,8 +17,7 @@ class Main {
 - 순서없는 리스트
 - 2
 - 3
-
-![bg](/Users/seango/Downloads/background.jpg)
+![bg](assets/images/background.jpg)
 
 
 ![img.png](assets/images/img.png)
