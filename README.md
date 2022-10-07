@@ -1,5 +1,27 @@
 
 # Github Pages
+블라블라  
+블라블라
+
+```java
+class Main {
+    
+}
+```
+
+
+
+1. 첫번째
+2. 두번째
+
+- 순서없는 리스트
+- 2
+- 3
+
+![bg](/Users/seango/Downloads/background.jpg)
+
+
+![img.png](assets/images/img.png)
 
 ## Gihub Pages 만드는 방법
 1. 일반 Repo를 Github Pages로 만들기
