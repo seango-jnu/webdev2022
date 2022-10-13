@@ -106,6 +106,9 @@
 
 <meta charset="utf-8">
 ```
+- 인코딩 지정없이 한글 html 파일 만들어 테스트 해보기
+- 크롬 인코딩 변경을 위한 chrome extension 
+  - https://chrome.google.com/webstore/detail/charset/oenllhgkiiljibhfagbfogdbchhdchml/related
 
 ##### description
 
@@ -158,6 +161,7 @@
 ##### http-equiv
 
 - https://www.w3schools.com/tags/att_meta_http_equiv.asp
+- meta tag 를 이용해서 http header 정보를 제공
 
 ```html
 
@@ -167,6 +171,11 @@
 - ie 혼환성 보기 설정
 - ie 버전마다 렌더링 방법이 바뀌고 다르게 보이는 현상 발생에 대응.
 - ie=edge : 호환성 보기 설정 무시.
+
+```html
+<meta http-equiv="refresh" content="2">
+```
+- 재미로 해보는 refresh
 
 #### opengraph meta tags
 
@@ -180,6 +189,7 @@
 ```
 
 - https://ogp.me/
+- 외부에 공유될 페이지의 정보를 직적접으로 관리함
 - facebook, 다음댓글, 블로그... 등등에서 사용함
 
 #### twitter card meta tags
