@@ -2,9 +2,11 @@
 
 ## 들어가기 전에
 
+### 마크다운 비쥬얼 에디터 플러스인 설치
+
 - markdown editor plugin 설치하기
 - shift*2 > plugins
-- https://plugins.jetbrains.com/plugin/17254-markdown-editor
+- [https://plugins.jetbrains.com/plugin/17254-markdown-editor](https://seango-jnu.github.io/webdev2022/html/)
 
 ## 확장자
 
@@ -44,7 +46,7 @@
 
 - 단축키 : cmd(ctr) + /
 - 참고 : IE conditional comment
-    - https://www.quirksmode.org/css/condcom.html
+    - [https://www.quirksmode.org/css/condcom.html](https://seango-jnu.github.io/webdev2022/html/)
 
 ## html start
 
@@ -109,7 +111,7 @@
 
 - 인코딩 지정없이 한글 html 파일 만들어 테스트 해보기
 - 크롬 인코딩 변경을 위한 chrome extension
-    - https://chrome.google.com/webstore/detail/charset/oenllhgkiiljibhfagbfogdbchhdchml/related
+    - [https://chrome.google.com/webstore/detail/charset/oenllhgkiiljibhfagbfogdbchhdchml/related](https://seango-jnu.github.io/webdev2022/html/)
 
 ##### description
 
@@ -126,8 +128,8 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 ```
 
-- https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag
-- https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html
+- [https://developer.mozilla.org/en-US/docs/Web/HTML/Viewport_meta_tag](https://seango-jnu.github.io/webdev2022/html/)
+- [https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/UsingtheViewport/UsingtheViewport.html](https://seango-jnu.github.io/webdev2022/html/)
 - 모바일 웹 대응
 - 확대/축소 기능
 - different screen resolution 대응
@@ -157,11 +159,11 @@
 - default : strict-origin-when-cross-origin, path, query 사용
 - https://example.com/page.html will send the referrer https://example.com/
 - no-referrer : 레퍼러 정보를 표시하지 않음
-- https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy
+- [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Referrer-Policy](https://seango-jnu.github.io/webdev2022/html/)
 
 ##### http-equiv
 
-- https://www.w3schools.com/tags/att_meta_http_equiv.asp
+- [https://www.w3schools.com/tags/att_meta_http_equiv.asp](https://seango-jnu.github.io/webdev2022/html/)
 - meta tag 를 이용해서 http header 정보를 제공
 
 ```html
@@ -205,9 +207,9 @@
 <meta name="twitter:image" content="">
 ```
 
-- https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup
+- [https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/markup](https://seango-jnu.github.io/webdev2022/html/)
 - opengraph 와 중복되는 요소는 opengraph 만 사용해도 됩니다.
-- https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started
+- [https://developer.twitter.com/en/docs/twitter-for-websites/cards/guides/getting-started](https://seango-jnu.github.io/webdev2022/html/)
 
 ##### apple meta tags
 
@@ -217,7 +219,7 @@
 ```
 
 - Adding a Launch Icon Title
-- https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html
+- [https://developer.apple.com/library/archive/documentation/AppleApplications/Reference/SafariWebContent/ConfiguringWebApplications/ConfiguringWebApplications.html](https://seango-jnu.github.io/webdev2022/html/)
 
 ### script
 
@@ -285,7 +287,7 @@
 
 ### Block Elements
 
-- https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements
+- [https://developer.mozilla.org/en-US/docs/Web/HTML/Block-level_elements](https://seango-jnu.github.io/webdev2022/html/)
 - 줄바꿈 됨
 - 부모 width 만큼 영역을 차지함
 
@@ -364,7 +366,7 @@
 - reversed
 - type : a, A, i, I, 1
 - start
-- https://developer.mozilla.org/en-US/docs/web/html/element/ol
+- [https://developer.mozilla.org/en-US/docs/web/html/element/ol](https://seango-jnu.github.io/webdev2022/html/)
 
 ### dl
 
@@ -413,7 +415,7 @@
 </table>
 ```
 
-- https://developer.mozilla.org/en-US/docs/web/html/element/table
+- [https://developer.mozilla.org/en-US/docs/web/html/element/table](https://seango-jnu.github.io/webdev2022/html/)
 - 위의 문서와 실습으로 알아 보겠습니다.
 
 #### form
@@ -459,12 +461,12 @@
 - 사용자 인터렉션을 위한 컴포넌트
 - 모바일 웹에서 지원하는 type 이 많음
 - label 권장함. 클릭하면 해당 컴포넌트 클릭한 효과 있음
-- https://developer.mozilla.org/en-US/docs/web/html/element/form
+- [https://developer.mozilla.org/en-US/docs/web/html/element/form](https://seango-jnu.github.io/webdev2022/html/)
 - 위의 문서와 실습으로 알아 보겠습니다.
 
 ### Inline Elements
 
-- https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements
+- [https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements](https://seango-jnu.github.io/webdev2022/html/)
 - block 요소 안에 inline 요소가 올 수 있지만
 - inline 요소안에 block 요소가 올 수 없음
 - content 만큼 영역을 차지함
@@ -611,11 +613,6 @@
   <figcaption></figcaption>
 </figure>
 ```
-
-
-### 새로 추가된 태그
-
-- https://www.tutorialspoint.com/html5/html5_new_tags.htm
 
 #### 영역 태그
 - header
