@@ -106,9 +106,10 @@
 
 <meta charset="utf-8">
 ```
+
 - 인코딩 지정없이 한글 html 파일 만들어 테스트 해보기
-- 크롬 인코딩 변경을 위한 chrome extension 
-  - https://chrome.google.com/webstore/detail/charset/oenllhgkiiljibhfagbfogdbchhdchml/related
+- 크롬 인코딩 변경을 위한 chrome extension
+    - https://chrome.google.com/webstore/detail/charset/oenllhgkiiljibhfagbfogdbchhdchml/related
 
 ##### description
 
@@ -173,8 +174,10 @@
 - ie=edge : 호환성 보기 설정 무시.
 
 ```html
+
 <meta http-equiv="refresh" content="2">
 ```
+
 - 재미로 해보는 refresh
 
 #### opengraph meta tags
@@ -254,9 +257,12 @@
 - html 보다 먼저 로딩되어야 해서 항상 head 태그 안에 넣음
 
 ### noscript
+
 ```html
+
 <noscript>자바스크립트를 지원하지 않습니다.</noscript>
 ```
+
 - 자바스크립트를 지원하지 않는 브라우저에서 보여 줌
 - 테스트 : chrome dev tool > cmd + shift + p > disable javascript
 
@@ -311,19 +317,24 @@
 - 문단을 표현하기 위한 태그
 
 ### hr
+
 ```html
+
 <hr>
 ```
 
 - 가로줄
 
 ### pre
+
 ```html
+
 <pre></pre>
 ```
 
 - preformatted text
 - 보통 두칸 이상의 공백은 무조건 한칸으로 보이지만 pre 안에서는 모든 공백이 그대로 표현됨
+
 #### ul
 
 ```html
@@ -356,14 +367,17 @@
 - https://developer.mozilla.org/en-US/docs/web/html/element/ol
 
 ### dl
+
 ```html
+
 <dl>
-  <dt></dt>
-  <dd></dd>
-  <dt></dt>
-  <dd></dd>
+    <dt></dt>
+    <dd></dd>
+    <dt></dt>
+    <dd></dd>
 </dl>
 ```
+
 - dl : description list
 - dt : description term
 - dd : description detail
@@ -375,7 +389,7 @@
 <table>
     <caption></caption>
     <colgroup>
-        <col style="">
+        <col style="" class="">
         <col span="">
     </colgroup>
     <thead>
@@ -409,6 +423,7 @@
 <form action="" method="" target="">
     <fieldset>
         <legend></legend>
+        <label for=""></label>
         <input type="text" value="" disabled readonly>
         <input type="hidden">
         <input type="search">
@@ -418,7 +433,7 @@
         <input type="file">
         <input type="email">
         <input type="password">
-        <input type="image">
+        <input type="image" alt="">
         <input type="checkbox">
         <input type="radio">
         <input type="range">
@@ -431,11 +446,10 @@
         <button type="submit"></button>
         <button type="reset"></button>
         <textarea rows="" cols=""></textarea>
-        <label for=""></label>
         <select>
-          <optgroup label="">
-            <option></option>
-          </optgroup>
+            <optgroup label="">
+                <option></option>
+            </optgroup>
         </select>
     </fieldset>
 </form>
@@ -464,56 +478,159 @@
 - div 와 동일하지만 inline 요소임 : 줄바꿈 안됨.
 
 #### b, strong
+```html
+<b></b>
+<strong></strong>
+```
+
+- 굵은 글자 표시
+- b : 화면상의 표시를 위함
+- string : 문서의 의미적인 강조
 
 #### i, em
+```html
+<i></i>
+<em></em>
+```
+
+- 모두 이탤릭으로 표시됨
+- i :  기술 용어, 외국어 구절
+- em : emphasize, 강조
 
 #### u
 
+```html
+<u></u>
+```
+
+- underline
+
 #### sub, sup
 
-#### big, small
+```html
+<sub></sub>
+<sup></sup>
+```
+
+- sub : 아래 첨자
+- sup : 위 첨자
+
+#### small
+
+```html
+<small></small>
+```
+
+- 작은 글자
 
 #### img
 
+```html
+<img src="" alt="" width="" height="">
+```
+
+- 이미지 리소스를 표시하는 태그
+- 웹 접근성을 위해서 alt 속성을 꼭 넣어 줘야 한다.(스크리리더기를 위함)
+- 지원 이미지 포맷
+  - gif
+  - jpeg
+  - png
+  - svg
+  - apng
+  - webp
+
 #### br
+
+```html
+<br>
+```
+
+- 줄바꿈
 
 #### iframe
 
 ```html
 
-<iframe src="" width="" height="" title=""></iframe>
+<iframe id="" name="" src="" width="" height="" title=""></iframe>
 ```
 
 - 다른 html 페이지를 임베드할 수 있음
 - 지도, 댓글, 광고 임베드, 폼데이터 전송에 많이 사용함
 
-
 #### template
+
+```html
+<template></template>
+```
+
+- 보이지 않음
+- html 을 담아 놓을 수 있음
+- javascript 를 이용해서 html 을 사용할 수 있음
 
 #### abbr
 
-#### cite
+```html
+<abbr></abbr>
+```
+
+- Abbreviation
+- 약어
+
+#### blockquote
+
+```html
+<blockquote cite=""></blockquote>
+```
+
+- 인용문
+- cite 속성 : 출처
 
 #### code
 
+```html
+<code></code>
+```
+
 #### picture
+
+```html
+<picture>
+  <source srcset="" media="">
+  <source srcset="mdn-logo-wide.png" media="(min-width: 600px)" />
+  <source srcset="logo-768.png, logo-768-1.5x.png 1.5x" />
+  <source srcset="photo.webp" type="image/webp" />
+  <img src="" alt="">
+</picture>
+```
+
+#### figure
+
+```html
+<figure>
+  <img src="" alt="">
+  <figcaption></figcaption>
+</figure>
+```
+
 
 ### 새로 추가된 태그
 
 - https://www.tutorialspoint.com/html5/html5_new_tags.htm
+
+#### 영역 태그
 - header
 - section
 - nav
 - footer
 - aside
-- address
 - article
 - main
-- figure
-- figcaption
+
+#### 기능태그
 - audio
 - video
 - canvas
 - svg
 - progress
 - ruby
+
